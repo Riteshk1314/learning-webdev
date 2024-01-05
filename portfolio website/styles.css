@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #cea7a7;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #cea7a7;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Flexbox for social icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+/* Additional styling for social icons */
+.social-icons img {
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}

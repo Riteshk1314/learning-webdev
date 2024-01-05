@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
+    <title >Ritesh's - Portfolio</title>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <header class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto">
+            <h1 id="typedname" class="animated-text text-4xl font-bold"></h1>
+            <h2 class="text-xl">Tech enthusiast</h2>
+        </div>
+    </header>
+
+    <nav class="bg-gray-200 py-4">
+        <div class="container mx-auto">
+            <ul class="flex justify-center space-x-8">
+                <li><a href="#home" class="text-gray-700 hover:text-gray-900">Home</a></li>
+                <li><a href="#about" class="text-gray-700 hover:text-gray-900">About Me</a></li>
+                <li><a href="#contact" class="text-gray-700 hover:text-gray-900">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="section bg-white">
+        <div class="container mx-auto">
+            <h1 class="text-2xl font-bold mb-4">Technologies Explored</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="p-4 bg-gray-100 rounded">
+                    <h3 class="text-xl font-semibold">MERN Stack</h3>
+                    <p>Learnt basic HTML and CSS, currently learning JavaScript.</p>
+                </div>
+                <div class="p-4 bg-gray-100 rounded">
+                    <h3 class="text-xl font-semibold">Blockchain</h3>
+                    <p>Explored Solidity.</p>
+                </div>
+                <div class="p-4 bg-gray-100 rounded">
+                    <h3 class="text-xl font-semibold">Basic Python and MySQL</h3>
+                    <p>Learned basic Python, OOP, and created a beginner-friendly Employee Management System using MySQL for database management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">About Me</h2>
+            <p>Introduce yourself and showcase your skills and experiences.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Contact</h2>
+            <p>Feel free to reach out to me!</p>
+            <div class="social-icons flex items-center mt-4">
+                <a href="https://www.linkedin.com/in/ritesh-kapoor-8691921b4/" target="_blank" class="mr-4"><img src="2786063.png" alt="LinkedIn" class="w-6 h-6"></a>
+                <a href="https://www.instagram.com/riteshkapoor__/" target="_blank" class="mr-4"><img src="new-Instagram-logo-png-full-colour-glyph-900x900.png" alt="Instagram" class="w-6 h-6"></a>
+                <a href="https://github.com/Riteshk1314/" target="_blank"><img src="9796505.png" alt="GitHub" class="w-6 h-6"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto">
+            <p>&copy; 2023 learnings
+            </p>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="app.js"></script>
+</body>
+</html>
