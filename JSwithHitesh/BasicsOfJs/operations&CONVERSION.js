@@ -32,3 +32,15 @@ console.log(true+1)
 console.log(+true)
 console.log(+"")
 
+
+
+
+//*****comparison*****
+console.log(null>0) //false 
+console.log(null==0 ) //falso 
+console.log(null>= 0) //true //the reason is that an equality check == and comparison < > >= <= work differently. comparison convert it into 0 i.e a number 
+//if underfined was there then then all false
+
+console.log("2"==2)//true
+console.log("2"===2)//false //this is strict check 
+
