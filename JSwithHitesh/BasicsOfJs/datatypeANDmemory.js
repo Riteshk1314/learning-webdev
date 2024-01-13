@@ -52,3 +52,10 @@ const myfunction= function(){
 //        Function  =>  function
 //        Object  =>  object
 
+//stack( primitive)(a copy is passed).......heap(non primitive)(pass by reference)
+let myyt = "rieshkapoor1314@gmail.com"//https://www.youtube.com/watch?v=7gwc-1czolw&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=10
+let userOne = {name:rtiesh,email:"riteshk1314@gmail.com",upi:"user@ybl"}
+let userTwo = userOne
+userTwo.email= "hello@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)//both will give same output
