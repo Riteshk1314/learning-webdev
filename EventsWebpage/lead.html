@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Webpage</title>
+    <link rel="stylesheet" href="lead.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your separate CSS file -->
+</head>
+<body>
+
+<h1>
+    Events
+</h1>
+<p class="dash">--------------------------------------------------------</p>
+
+<div id="container">
+    <!-- Event 1 -->
+    <div id="first" class="Ev">
+        <h1>Event 1</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed architecto natus tempora, ex pariatur accusantium rem, ullam delectus cumque, cupiditate id temporibus! Perspiciatis nisi, aut voluptates quidem non nostrum aperiam!</p>
+        <button class="buttons" onclick="openRegistrationPage('formEvent1')">Rulebook</button>
+        <button class="buttons" onclick="openRegistrationPage('formEvent1')">Register Here!</button>
+    </div>
+
+    <!-- Event 2 -->
+    <div id="second" class="Ev" >
+        <h1>Event 2</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, quos nisi ad autem enim nam doloribus necessitatibus tempora iste perferendis vero deleniti voluptatem quam, eos ex, minima atque consectetur blanditiis!</p>
+        <button class="buttons" onclick="openRegistrationPage('formEvent2')">Rulebook</button>
+        <button class="buttons" onclick="openRegistrationPage('formEvent2')">Register Here!</button>
+    </div>
+
+    <!-- Event 3 -->
+    <div id="third" class="Ev">
+        <h1>Event 3</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deserunt, doloremque tenetur cupiditate exercitationem temporibus tempore eligendi maiores, provident ut quos, facere velit ratione necessitatibus voluptas ullam inventore dolores sit.</p>
+        <button class="buttons" onclick="openRegistrationPage('formEvent3')">Rulebook</button>
+        <button class="buttons" onclick="openRegistrationPage('formEvent3')">Register Here!</button>
+    </div>
+</div>
+
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script>
+VanillaTilt.init(document.querySelectorAll(".Ev"), {
+    max: 25,
+    speed: 400
+});
+
+function openRegistrationPage(formId) {
+    window.open('registration.html', '_blank'); // Open registration.html in a new window
+    // Alternatively, you can use window.location.href = 'registration.html'; to redirect to the registration page
+}
+</script>
+</body>
+</html>
+ 
